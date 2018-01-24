@@ -21,7 +21,7 @@ class UsersController extends Controller
 // 'sex' => 'Femail'
 // ]
 // ];
-   	$users = User:: all();
+   	$users = User:: paginate(10);
    	// return $users;
 	return view('admin.users.index', compact('users'));
 	}

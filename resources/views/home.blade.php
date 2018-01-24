@@ -11,8 +11,7 @@
                      <h1>{{$myname}}</h1>
                      <h1>{{$age}}</h1>
                      {{$auth->name}}
-
-                    
+                     
                     @if (session('status'))
                         <div class="alert alert-success">
                             {{ session('status') }}

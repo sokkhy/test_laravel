@@ -8,7 +8,12 @@
                 <div class="panel-heading">Profile</div>
 
                 <div class="panel-body">
-               {{$test}}
+                <p>
+                    Age: @age([1995,3,6]);
+                </p>
+                <p>
+                    @Hi('Key');
+                </p>
                 </div>
             </div>
         </div>
